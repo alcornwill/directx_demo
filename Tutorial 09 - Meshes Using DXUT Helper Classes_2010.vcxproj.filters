@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="MyStuff">
+      <UniqueIdentifier>{b2c73c4d-59ef-4e5a-ad49-bf1ab135e760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyStuff\Shaders">
+      <UniqueIdentifier>{1c0b194b-4709-4dc6-8fdb-9882d38aa330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyStuff\Singletons">
+      <UniqueIdentifier>{e0718fcc-c016-465f-bd2e-e3e34052e278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyStuff\Mesh stuff">
+      <UniqueIdentifier>{b71acfc6-4eec-4e93-89ae-f7f3d51b878a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyStuff\GameObject">
+      <UniqueIdentifier>{b4cce99f-559d-4b6a-b79c-ad3ab14f17e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyStuff\Renderers">
+      <UniqueIdentifier>{c84f0cac-7066-4622-9c59-3912747723b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTDevice11.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTDevice9.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTDevice11.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTDevice9.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Camera.cpp">
+      <Filter>MyStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="vector3.cpp">
+      <Filter>MyStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInfo.cpp">
+      <Filter>MyStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="PhongShader.cpp">
+      <Filter>MyStuff\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderPair.cpp">
+      <Filter>MyStuff\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectManager.cpp">
+      <Filter>MyStuff\Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>MyStuff\Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderingContext.cpp">
+      <Filter>MyStuff\Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshManager.cpp">
+      <Filter>MyStuff\Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMeshInfo.cpp">
+      <Filter>MyStuff\Mesh stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="GameContext.cpp">
+      <Filter>MyStuff\Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="WalkingObject.cpp">
+      <Filter>MyStuff\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>MyStuff\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="UnlitShader.cpp">
+      <Filter>MyStuff\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>MyStuff\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="StandardRenderer.cpp">
+      <Filter>MyStuff\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellRenderer.cpp">
+      <Filter>MyStuff\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>MyStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellTextureShader.cpp">
+      <Filter>MyStuff\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowPlayer.cpp">
+      <Filter>MyStuff\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudShader.cpp">
+      <Filter>MyStuff\Shaders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>MyStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3.h">
+      <Filter>MyStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInfo.h">
+      <Filter>MyStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="PhongShader.h">
+      <Filter>MyStuff\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderPair.h">
+      <Filter>MyStuff\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>MyStuff\Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="GameContext.h">
+      <Filter>MyStuff\Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>MyStuff\Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>MyStuff\Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderingContext.h">
+      <Filter>MyStuff\Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshManager.h">
+      <Filter>MyStuff\Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMesh.h">
+      <Filter>MyStuff\Mesh stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="WalkingObject.h">
+      <Filter>MyStuff\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>MyStuff\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UnlitShader.h">
+      <Filter>MyStuff\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>MyStuff\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardRenderer.h">
+      <Filter>MyStuff\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellRenderer.h">
+      <Filter>MyStuff\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>MyStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMeshInfo.h">
+      <Filter>MyStuff\Mesh stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellTextureShader.h">
+      <Filter>MyStuff\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowPlayer.h">
+      <Filter>MyStuff\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudShader.h">
+      <Filter>MyStuff\Shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="PS_PHONG.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_ColoredDiffuse.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="VS_Standard.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_ShellTexture.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="VS_ShellTexture.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_Clouds.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Main Coursework.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
